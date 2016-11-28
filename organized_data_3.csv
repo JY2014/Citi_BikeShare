@@ -1,0 +1,1330 @@
+,month,day_of_month,day_of_week,neighborhood,morning_outgoing,afternoon_outgoing,morning_incoming,afternoon_incoming
+0,7,1,4,Greenpoint,131,46,71,70
+1,7,1,4,Chelsea and Clinton,969,515,983,662
+2,7,1,4,Greenwich Village and Soho,315,278,381,291
+3,7,1,4,Lower East Side,804,368,373,518
+4,7,1,4,Lower Manhattan,249,158,473,164
+5,7,1,4,Northwest Brooklyn,200,77,167,103
+6,7,1,4,Upper East Side,249,83,114,112
+7,7,1,4,Gramercy Park and Murray Hill,536,347,803,313
+8,7,1,4,Bushwick and Williamsburg,81,46,58,54
+9,7,1,4,Upper West Side,292,55,67,113
+10,7,1,4,Central Brooklyn,71,11,27,13
+11,7,1,4,Northwest Queens,22,19,40,19
+12,7,1,4,Sunset Park,0,0,1,0
+13,7,1,4,Hudson,0,0,0,0
+14,7,2,5,Lower East Side,188,419,137,402
+15,7,2,5,Chelsea and Clinton,233,615,203,585
+16,7,2,5,Bushwick and Williamsburg,30,89,36,82
+17,7,2,5,Upper West Side,51,233,37,215
+18,7,2,5,Greenwich Village and Soho,89,363,108,349
+19,7,2,5,Northwest Brooklyn,53,161,49,198
+20,7,2,5,Northwest Queens,4,25,10,23
+21,7,2,5,Central Brooklyn,14,27,7,21
+22,7,2,5,Gramercy Park and Murray Hill,87,215,90,231
+23,7,2,5,Lower Manhattan,69,334,76,283
+24,7,2,5,Greenpoint,37,74,21,82
+25,7,2,5,Upper East Side,39,156,29,131
+26,7,2,5,Sunset Park,0,0,0,0
+27,7,3,6,Gramercy Park and Murray Hill,92,258,70,282
+28,7,3,6,Chelsea and Clinton,193,675,158,679
+29,7,3,6,Northwest Brooklyn,54,245,44,231
+30,7,3,6,Upper West Side,73,263,51,272
+31,7,3,6,Greenwich Village and Soho,77,384,74,401
+32,7,3,6,Lower Manhattan,61,322,63,340
+33,7,3,6,Lower East Side,122,409,86,434
+34,7,3,6,Upper East Side,47,182,40,147
+35,7,3,6,Bushwick and Williamsburg,14,88,9,96
+36,7,3,6,Central Brooklyn,3,18,4,32
+37,7,3,6,Greenpoint,25,94,24,102
+38,7,3,6,Northwest Queens,2,34,3,34
+39,7,4,0,Greenwich Village and Soho,92,427,75,385
+40,7,4,0,Lower East Side,116,435,85,523
+41,7,4,0,Lower Manhattan,44,340,60,364
+42,7,4,0,Chelsea and Clinton,189,708,174,689
+43,7,4,0,Gramercy Park and Murray Hill,97,269,83,291
+44,7,4,0,Upper East Side,35,201,36,166
+45,7,4,0,Greenpoint,25,114,14,143
+46,7,4,0,Upper West Side,50,225,35,257
+47,7,4,0,Northwest Brooklyn,30,155,25,175
+48,7,4,0,Bushwick and Williamsburg,18,99,22,107
+49,7,4,0,Central Brooklyn,5,32,3,36
+50,7,4,0,Northwest Queens,8,37,9,48
+51,7,5,1,Lower East Side,668,591,264,878
+52,7,5,1,Gramercy Park and Murray Hill,535,966,755,625
+53,7,5,1,Lower Manhattan,257,688,388,382
+54,7,5,1,Greenpoint,108,79,60,87
+55,7,5,1,Chelsea and Clinton,937,1247,874,1318
+56,7,5,1,Northwest Brooklyn,160,173,132,139
+57,7,5,1,Bushwick and Williamsburg,87,73,61,76
+58,7,5,1,Greenwich Village and Soho,320,603,395,501
+59,7,5,1,Upper East Side,191,174,75,206
+60,7,5,1,Northwest Queens,16,31,33,22
+61,7,5,1,Upper West Side,166,186,47,230
+62,7,5,1,Central Brooklyn,38,12,14,22
+63,7,5,1,Sunset Park,0,0,1,0
+64,7,6,2,Chelsea and Clinton,1176,1492,1182,1443
+65,7,6,2,Greenwich Village and Soho,469,673,578,558
+66,7,6,2,Gramercy Park and Murray Hill,728,1110,1059,673
+67,7,6,2,Greenpoint,163,96,102,84
+68,7,6,2,Upper East Side,273,172,125,188
+69,7,6,2,Lower East Side,1023,644,446,900
+70,7,6,2,Upper West Side,326,145,77,241
+71,7,6,2,Northwest Brooklyn,234,177,226,185
+72,7,6,2,Bushwick and Williamsburg,112,79,77,95
+73,7,6,2,Lower Manhattan,305,700,594,376
+74,7,6,2,Central Brooklyn,74,21,29,37
+75,7,6,2,Northwest Queens,21,42,45,30
+76,7,6,2,Sunset Park,0,0,2,0
+77,7,7,3,Chelsea and Clinton,1202,1350,1197,1417
+78,7,7,3,Lower Manhattan,313,576,537,322
+79,7,7,3,Lower East Side,1002,632,435,857
+80,7,7,3,Greenwich Village and Soho,419,583,590,465
+81,7,7,3,Greenpoint,159,69,96,94
+82,7,7,3,Upper West Side,321,171,69,254
+83,7,7,3,Northwest Brooklyn,245,172,220,156
+84,7,7,3,Central Brooklyn,72,22,24,16
+85,7,7,3,Gramercy Park and Murray Hill,678,1131,1004,661
+86,7,7,3,Bushwick and Williamsburg,106,87,73,85
+87,7,7,3,Upper East Side,277,191,153,225
+88,7,7,3,Northwest Queens,28,33,39,31
+89,7,7,3,Sunset Park,1,4,2,4
+90,7,7,3,Hudson,0,0,0,1
+91,7,8,4,Chelsea and Clinton,1116,1132,1070,1324
+92,7,8,4,Lower East Side,970,623,470,946
+93,7,8,4,Upper East Side,237,170,134,216
+94,7,8,4,Greenpoint,139,98,79,110
+95,7,8,4,Gramercy Park and Murray Hill,635,908,964,613
+96,7,8,4,Bushwick and Williamsburg,99,72,69,88
+97,7,8,4,Greenwich Village and Soho,386,642,482,553
+98,7,8,4,Northwest Brooklyn,205,157,198,183
+99,7,8,4,Lower Manhattan,271,498,473,311
+100,7,8,4,Northwest Queens,24,50,31,44
+101,7,8,4,Central Brooklyn,77,26,29,38
+102,7,8,4,Upper West Side,328,120,87,236
+103,7,8,4,Sunset Park,3,1,6,0
+104,7,9,5,Lower East Side,260,543,194,572
+105,7,9,5,Chelsea and Clinton,231,684,207,679
+106,7,9,5,Bushwick and Williamsburg,27,138,26,113
+107,7,9,5,Greenwich Village and Soho,124,411,158,444
+108,7,9,5,Gramercy Park and Murray Hill,111,310,84,316
+109,7,9,5,Central Brooklyn,13,35,9,34
+110,7,9,5,Greenpoint,28,105,13,136
+111,7,9,5,Lower Manhattan,86,283,73,265
+112,7,9,5,Northwest Brooklyn,43,169,43,174
+113,7,9,5,Upper West Side,68,231,45,213
+114,7,9,5,Northwest Queens,7,31,6,33
+115,7,9,5,Upper East Side,55,170,48,170
+116,7,9,5,Sunset Park,0,0,0,0
+117,7,10,6,Greenwich Village and Soho,80,477,86,364
+118,7,10,6,Chelsea and Clinton,232,772,203,706
+119,7,10,6,Northwest Queens,5,37,6,34
+120,7,10,6,Lower East Side,175,550,125,578
+121,7,10,6,Upper West Side,75,198,55,232
+122,7,10,6,Central Brooklyn,7,36,7,34
+123,7,10,6,Gramercy Park and Murray Hill,94,340,89,286
+124,7,10,6,Northwest Brooklyn,43,204,38,159
+125,7,10,6,Bushwick and Williamsburg,8,108,6,105
+126,7,10,6,Greenpoint,16,130,16,141
+127,7,10,6,Lower Manhattan,74,275,79,270
+128,7,10,6,Upper East Side,47,171,45,148
+129,7,10,6,Sunset Park,0,0,0,0
+130,7,11,0,Greenwich Village and Soho,429,732,544,574
+131,7,11,0,Northwest Brooklyn,234,184,196,178
+132,7,11,0,Bushwick and Williamsburg,119,67,68,85
+133,7,11,0,Northwest Queens,28,53,37,29
+134,7,11,0,Gramercy Park and Murray Hill,778,1286,1062,735
+135,7,11,0,Lower Manhattan,319,757,576,364
+136,7,11,0,Chelsea and Clinton,1269,1562,1205,1632
+137,7,11,0,Upper East Side,261,201,115,258
+138,7,11,0,Lower East Side,957,659,468,933
+139,7,11,0,Central Brooklyn,83,19,30,28
+140,7,11,0,Greenpoint,164,86,93,114
+141,7,11,0,Upper West Side,139,172,50,267
+142,7,11,0,Sunset Park,1,4,2,4
+143,7,12,1,Greenwich Village and Soho,450,718,632,611
+144,7,12,1,Lower East Side,1100,708,471,943
+145,7,12,1,Chelsea and Clinton,1337,1556,1371,1584
+146,7,12,1,Gramercy Park and Murray Hill,803,1259,1246,729
+147,7,12,1,Northwest Brooklyn,264,212,248,191
+148,7,12,1,Upper West Side,387,165,78,286
+149,7,12,1,Greenpoint,188,97,102,101
+150,7,12,1,Bushwick and Williamsburg,136,74,83,91
+151,7,12,1,Lower Manhattan,343,759,618,406
+152,7,12,1,Upper East Side,322,202,144,257
+153,7,12,1,Central Brooklyn,75,17,24,28
+154,7,12,1,Northwest Queens,26,48,53,36
+155,7,12,1,Sunset Park,0,1,0,1
+156,7,13,2,Lower East Side,1051,662,449,923
+157,7,13,2,Greenwich Village and Soho,465,655,602,616
+158,7,13,2,Gramercy Park and Murray Hill,786,1292,1182,767
+159,7,13,2,Greenpoint,162,83,90,114
+160,7,13,2,Northwest Brooklyn,254,194,227,193
+161,7,13,2,Bushwick and Williamsburg,133,94,79,98
+162,7,13,2,Chelsea and Clinton,1366,1639,1384,1663
+163,7,13,2,Upper East Side,314,222,151,300
+164,7,13,2,Upper West Side,366,197,79,293
+165,7,13,2,Lower Manhattan,347,714,625,396
+166,7,13,2,Northwest Queens,31,50,62,36
+167,7,13,2,Central Brooklyn,89,22,36,25
+168,7,13,2,Sunset Park,0,2,2,0
+169,7,14,3,Chelsea and Clinton,1229,1363,1220,1334
+170,7,14,3,Northwest Brooklyn,240,163,220,151
+171,7,14,3,Northwest Queens,29,21,45,28
+172,7,14,3,Upper West Side,305,150,66,208
+173,7,14,3,Greenwich Village and Soho,400,602,548,445
+174,7,14,3,Lower East Side,1052,534,515,787
+175,7,14,3,Greenpoint,148,76,86,89
+176,7,14,3,Upper East Side,287,181,146,201
+177,7,14,3,Lower Manhattan,325,569,565,297
+178,7,14,3,Gramercy Park and Murray Hill,699,1052,1015,634
+179,7,14,3,Bushwick and Williamsburg,132,57,82,66
+180,7,14,3,Central Brooklyn,71,21,26,20
+181,7,14,3,Sunset Park,0,0,2,0
+182,7,15,4,Chelsea and Clinton,1038,1268,1031,1266
+183,7,15,4,Greenpoint,119,89,73,96
+184,7,15,4,Greenwich Village and Soho,357,644,414,590
+185,7,15,4,Lower East Side,924,648,453,862
+186,7,15,4,Gramercy Park and Murray Hill,576,837,898,527
+187,7,15,4,Upper West Side,314,159,73,241
+188,7,15,4,Lower Manhattan,295,502,468,318
+189,7,15,4,Northwest Brooklyn,212,180,199,200
+190,7,15,4,Bushwick and Williamsburg,83,76,62,88
+191,7,15,4,Upper East Side,252,194,125,213
+192,7,15,4,Northwest Queens,17,20,26,26
+193,7,15,4,Central Brooklyn,58,25,23,32
+194,7,15,4,Sunset Park,0,0,2,0
+195,7,15,4,Hudson,0,0,0,1
+196,7,16,5,Lower East Side,241,417,200,426
+197,7,16,5,Northwest Brooklyn,61,134,65,124
+198,7,16,5,Greenwich Village and Soho,109,342,144,313
+199,7,16,5,Gramercy Park and Murray Hill,117,194,111,210
+200,7,16,5,Chelsea and Clinton,294,652,253,601
+201,7,16,5,Greenpoint,25,79,27,71
+202,7,16,5,Bushwick and Williamsburg,19,96,19,83
+203,7,16,5,Upper East Side,73,123,56,113
+204,7,16,5,Lower Manhattan,107,219,78,206
+205,7,16,5,Upper West Side,77,183,47,164
+206,7,16,5,Northwest Queens,2,26,6,14
+207,7,16,5,Central Brooklyn,22,14,14,25
+208,7,17,6,Greenwich Village and Soho,74,417,107,463
+209,7,17,6,Lower East Side,191,480,136,598
+210,7,17,6,Chelsea and Clinton,254,839,193,848
+211,7,17,6,Greenpoint,16,126,12,145
+212,7,17,6,Bushwick and Williamsburg,15,102,14,110
+213,7,17,6,Lower Manhattan,82,325,58,307
+214,7,17,6,Upper West Side,56,239,47,208
+215,7,17,6,Northwest Brooklyn,38,202,36,199
+216,7,17,6,Gramercy Park and Murray Hill,77,305,88,275
+217,7,17,6,Central Brooklyn,14,36,11,21
+218,7,17,6,Upper East Side,33,209,32,164
+219,7,17,6,Northwest Queens,10,27,7,32
+220,7,18,0,Northwest Queens,23,21,46,13
+221,7,18,0,Bushwick and Williamsburg,118,20,93,19
+222,7,18,0,Lower East Side,969,282,430,327
+223,7,18,0,Greenwich Village and Soho,402,287,536,166
+224,7,18,0,Lower Manhattan,327,268,557,133
+225,7,18,0,Northwest Brooklyn,191,75,172,61
+226,7,18,0,Upper East Side,223,62,109,64
+227,7,18,0,Gramercy Park and Murray Hill,689,467,980,232
+228,7,18,0,Chelsea and Clinton,1225,661,1145,517
+229,7,18,0,Greenpoint,147,33,70,30
+230,7,18,0,Upper West Side,194,45,51,55
+231,7,18,0,Central Brooklyn,53,1,20,3
+232,7,18,0,Sunset Park,0,0,2,0
+233,7,19,1,Gramercy Park and Murray Hill,797,1269,1158,719
+234,7,19,1,Lower East Side,1150,708,492,936
+235,7,19,1,Lower Manhattan,353,705,635,381
+236,7,19,1,Greenwich Village and Soho,481,687,620,541
+237,7,19,1,Chelsea and Clinton,1317,1559,1320,1600
+238,7,19,1,Northwest Brooklyn,252,201,235,187
+239,7,19,1,Bushwick and Williamsburg,125,77,91,97
+240,7,19,1,Northwest Queens,31,45,51,35
+241,7,19,1,Greenpoint,173,92,89,92
+242,7,19,1,Upper West Side,225,179,62,273
+243,7,19,1,Upper East Side,332,203,147,261
+244,7,19,1,Central Brooklyn,89,26,32,31
+245,7,19,1,Sunset Park,0,1,1,1
+246,7,20,2,Chelsea and Clinton,1344,1652,1402,1680
+247,7,20,2,Lower East Side,1091,684,506,1010
+248,7,20,2,Lower Manhattan,353,754,648,367
+249,7,20,2,Gramercy Park and Murray Hill,800,1328,1133,726
+250,7,20,2,Greenwich Village and Soho,479,732,594,573
+251,7,20,2,Upper West Side,337,173,76,291
+252,7,20,2,Northwest Brooklyn,261,226,231,219
+253,7,20,2,Greenpoint,181,77,110,97
+254,7,20,2,Upper East Side,317,208,150,249
+255,7,20,2,Northwest Queens,23,47,47,41
+256,7,20,2,Bushwick and Williamsburg,154,81,76,82
+257,7,20,2,Central Brooklyn,81,31,30,38
+258,7,20,2,Sunset Park,0,0,1,1
+259,7,21,3,Chelsea and Clinton,1371,1499,1336,1483
+260,7,21,3,Northwest Brooklyn,253,218,238,197
+261,7,21,3,Lower East Side,1091,629,508,951
+262,7,21,3,Greenpoint,162,74,77,77
+263,7,21,3,Gramercy Park and Murray Hill,731,1211,1122,693
+264,7,21,3,Northwest Queens,32,44,52,29
+265,7,21,3,Greenwich Village and Soho,361,655,512,589
+266,7,21,3,Upper West Side,406,212,97,256
+267,7,21,3,Upper East Side,332,206,153,251
+268,7,21,3,Bushwick and Williamsburg,125,69,79,65
+269,7,21,3,Lower Manhattan,324,674,616,359
+270,7,21,3,Central Brooklyn,87,13,28,26
+271,7,21,3,Sunset Park,1,1,3,0
+272,7,21,3,Hudson,0,0,0,0
+273,7,22,4,Chelsea and Clinton,1118,1259,1131,1357
+274,7,22,4,Lower Manhattan,284,529,527,337
+275,7,22,4,Greenwich Village and Soho,379,635,471,570
+276,7,22,4,Lower East Side,957,630,397,868
+277,7,22,4,Upper East Side,268,197,134,246
+278,7,22,4,Central Brooklyn,65,18,22,39
+279,7,22,4,Greenpoint,129,94,70,109
+280,7,22,4,Gramercy Park and Murray Hill,603,862,929,544
+281,7,22,4,Northwest Brooklyn,237,201,216,199
+282,7,22,4,Bushwick and Williamsburg,112,65,75,83
+283,7,22,4,Northwest Queens,22,31,42,30
+284,7,22,4,Upper West Side,323,136,81,235
+285,7,22,4,Sunset Park,0,0,1,0
+286,7,23,5,Chelsea and Clinton,306,733,304,612
+287,7,23,5,Lower Manhattan,99,282,83,257
+288,7,23,5,Northwest Brooklyn,66,127,62,154
+289,7,23,5,Gramercy Park and Murray Hill,123,245,110,240
+290,7,23,5,Lower East Side,242,434,183,499
+291,7,23,5,Greenwich Village and Soho,117,324,136,373
+292,7,23,5,Upper East Side,72,134,66,161
+293,7,23,5,Greenpoint,34,77,26,97
+294,7,23,5,Central Brooklyn,10,29,9,25
+295,7,23,5,Bushwick and Williamsburg,36,112,31,84
+296,7,23,5,Upper West Side,85,180,49,181
+297,7,23,5,Northwest Queens,8,24,7,20
+298,7,23,5,Sunset Park,0,0,1,0
+299,7,24,6,Lower East Side,169,505,116,502
+300,7,24,6,Lower Manhattan,80,329,84,302
+301,7,24,6,Gramercy Park and Murray Hill,97,320,101,326
+302,7,24,6,Chelsea and Clinton,244,817,218,799
+303,7,24,6,Upper East Side,52,178,38,171
+304,7,24,6,Greenwich Village and Soho,95,403,114,442
+305,7,24,6,Northwest Queens,6,24,7,21
+306,7,24,6,Greenpoint,25,130,22,138
+307,7,24,6,Bushwick and Williamsburg,27,103,30,77
+308,7,24,6,Upper West Side,87,233,78,230
+309,7,24,6,Central Brooklyn,10,32,9,26
+310,7,24,6,Northwest Brooklyn,34,177,38,183
+311,7,24,6,Sunset Park,0,0,0,0
+312,7,25,0,Lower East Side,995,167,450,347
+313,7,25,0,Greenpoint,140,30,77,36
+314,7,25,0,Greenwich Village and Soho,376,183,502,181
+315,7,25,0,Northwest Brooklyn,219,37,212,68
+316,7,25,0,Northwest Queens,26,17,41,17
+317,7,25,0,Upper West Side,172,51,36,103
+318,7,25,0,Gramercy Park and Murray Hill,672,437,980,344
+319,7,25,0,Chelsea and Clinton,1146,507,1102,693
+320,7,25,0,Bushwick and Williamsburg,115,18,78,34
+321,7,25,0,Lower Manhattan,297,107,528,112
+322,7,25,0,Upper East Side,206,64,98,119
+323,7,25,0,Central Brooklyn,59,5,15,8
+324,7,25,0,Sunset Park,0,0,1,0
+325,7,26,1,Chelsea and Clinton,1306,1547,1302,1503
+326,7,26,1,Gramercy Park and Murray Hill,738,1201,1098,713
+327,7,26,1,Upper East Side,244,211,128,261
+328,7,26,1,Greenwich Village and Soho,439,663,562,591
+329,7,26,1,Northwest Brooklyn,246,182,217,169
+330,7,26,1,Bushwick and Williamsburg,108,62,78,81
+331,7,26,1,Lower East Side,919,639,444,876
+332,7,26,1,Lower Manhattan,325,670,611,370
+333,7,26,1,Central Brooklyn,72,28,20,31
+334,7,26,1,Upper West Side,298,153,64,251
+335,7,26,1,Greenpoint,162,81,86,89
+336,7,26,1,Northwest Queens,34,37,50,39
+337,7,26,1,Sunset Park,0,2,2,0
+338,7,26,1,Hudson,0,0,0,0
+339,7,27,2,Lower East Side,1084,641,483,886
+340,7,27,2,Greenwich Village and Soho,424,676,576,548
+341,7,27,2,Lower Manhattan,334,690,648,395
+342,7,27,2,Greenpoint,162,78,82,104
+343,7,27,2,Gramercy Park and Murray Hill,707,1223,1116,705
+344,7,27,2,Chelsea and Clinton,1323,1540,1312,1556
+345,7,27,2,Northwest Brooklyn,220,183,206,167
+346,7,27,2,Bushwick and Williamsburg,123,78,61,84
+347,7,27,2,Upper West Side,335,186,62,269
+348,7,27,2,Northwest Queens,28,47,56,41
+349,7,27,2,Upper East Side,289,207,140,242
+350,7,27,2,Central Brooklyn,79,19,19,24
+351,7,27,2,Sunset Park,0,1,1,0
+352,7,27,2,East Harlem,0,0,0,0
+353,7,28,3,Lower East Side,995,635,466,890
+354,7,28,3,Northwest Brooklyn,221,182,219,202
+355,7,28,3,Greenwich Village and Soho,417,669,523,543
+356,7,28,3,Bushwick and Williamsburg,114,72,85,86
+357,7,28,3,Chelsea and Clinton,1328,1465,1309,1553
+358,7,28,3,Greenpoint,155,82,79,92
+359,7,28,3,Upper East Side,307,201,186,251
+360,7,28,3,Lower Manhattan,306,601,566,332
+361,7,28,3,Gramercy Park and Murray Hill,682,1163,1031,775
+362,7,28,3,Northwest Queens,31,36,47,43
+363,7,28,3,Upper West Side,318,148,66,272
+364,7,28,3,Central Brooklyn,68,33,25,36
+365,7,28,3,Sunset Park,0,1,2,0
+366,7,29,4,Gramercy Park and Murray Hill,123,488,159,453
+367,7,29,4,Greenwich Village and Soho,68,570,92,488
+368,7,29,4,Chelsea and Clinton,203,1215,198,1125
+369,7,29,4,Lower Manhattan,47,378,78,299
+370,7,29,4,Lower East Side,242,632,97,807
+371,7,29,4,Bushwick and Williamsburg,32,70,29,88
+372,7,29,4,Greenpoint,28,85,18,110
+373,7,29,4,Northwest Brooklyn,56,198,51,195
+374,7,29,4,Upper West Side,33,185,16,242
+375,7,29,4,Upper East Side,38,182,22,186
+376,7,29,4,Northwest Queens,6,39,10,29
+377,7,29,4,Central Brooklyn,12,20,7,24
+378,7,29,4,Sunset Park,0,1,0,0
+379,7,30,5,Bushwick and Williamsburg,32,31,29,32
+380,7,30,5,Gramercy Park and Murray Hill,122,72,104,60
+381,7,30,5,Upper East Side,66,23,46,43
+382,7,30,5,Chelsea and Clinton,255,167,257,209
+383,7,30,5,Greenpoint,45,34,38,40
+384,7,30,5,Lower East Side,219,130,153,171
+385,7,30,5,Greenwich Village and Soho,106,97,119,109
+386,7,30,5,Northwest Queens,9,4,9,7
+387,7,30,5,Northwest Brooklyn,57,60,50,63
+388,7,30,5,Upper West Side,83,35,53,33
+389,7,30,5,Lower Manhattan,100,50,88,73
+390,7,30,5,Central Brooklyn,16,8,15,13
+391,7,31,6,Lower East Side,137,527,106,539
+392,7,31,6,Chelsea and Clinton,158,645,143,627
+393,7,31,6,Bushwick and Williamsburg,13,87,16,74
+394,7,31,6,Gramercy Park and Murray Hill,70,297,62,265
+395,7,31,6,Northwest Brooklyn,41,160,29,148
+396,7,31,6,Greenpoint,14,88,13,92
+397,7,31,6,Greenwich Village and Soho,52,391,85,380
+398,7,31,6,Upper West Side,45,160,36,163
+399,7,31,6,Upper East Side,48,127,32,142
+400,7,31,6,Lower Manhattan,56,220,39,242
+401,7,31,6,Central Brooklyn,10,27,7,32
+402,7,31,6,Northwest Queens,3,17,3,19
+403,8,1,0,Lower East Side,853,704,364,944
+404,8,1,0,Bushwick and Williamsburg,107,73,69,95
+405,8,1,0,Greenwich Village and Soho,383,622,454,575
+406,8,1,0,Greenpoint,142,93,71,100
+407,8,1,0,Chelsea and Clinton,1127,1576,1159,1562
+408,8,1,0,Lower Manhattan,267,709,512,337
+409,8,1,0,Northwest Brooklyn,202,180,190,182
+410,8,1,0,Gramercy Park and Murray Hill,676,1182,963,749
+411,8,1,0,Central Brooklyn,63,26,27,29
+412,8,1,0,Upper East Side,278,239,151,246
+413,8,1,0,Upper West Side,308,183,49,278
+414,8,1,0,Northwest Queens,31,40,42,35
+415,8,1,0,Sunset Park,0,0,1,0
+416,8,2,1,Upper East Side,325,230,168,262
+417,8,2,1,Greenpoint,173,82,94,120
+418,8,2,1,Bushwick and Williamsburg,151,64,93,85
+419,8,2,1,Chelsea and Clinton,1421,1697,1482,1681
+420,8,2,1,Greenwich Village and Soho,448,714,570,611
+421,8,2,1,Lower East Side,1091,703,477,921
+422,8,2,1,Lower Manhattan,350,789,644,446
+423,8,2,1,Gramercy Park and Murray Hill,748,1281,1143,774
+424,8,2,1,Northwest Brooklyn,246,263,215,239
+425,8,2,1,Central Brooklyn,93,27,29,29
+426,8,2,1,Sunset Park,0,5,0,2
+427,8,2,1,Upper West Side,364,205,68,336
+428,8,2,1,Northwest Queens,45,49,52,54
+429,8,2,1,Hudson,0,0,0,0
+430,8,3,2,Greenwich Village and Soho,418,706,547,569
+431,8,3,2,Lower East Side,1034,720,479,974
+432,8,3,2,Central Brooklyn,106,31,29,41
+433,8,3,2,Bushwick and Williamsburg,131,69,72,93
+434,8,3,2,Gramercy Park and Murray Hill,759,1317,1145,748
+435,8,3,2,Upper East Side,360,233,148,296
+436,8,3,2,Chelsea and Clinton,1361,1669,1440,1652
+437,8,3,2,Upper West Side,407,218,93,320
+438,8,3,2,Lower Manhattan,328,776,656,439
+439,8,3,2,Greenpoint,179,104,98,116
+440,8,3,2,Northwest Brooklyn,249,214,249,224
+441,8,3,2,Northwest Queens,35,35,56,26
+442,8,3,2,Sunset Park,0,4,0,4
+443,8,3,2,East Harlem,0,0,0,0
+444,8,4,3,Chelsea and Clinton,1360,1680,1408,1627
+445,8,4,3,Gramercy Park and Murray Hill,747,1240,1135,722
+446,8,4,3,Upper West Side,428,191,91,317
+447,8,4,3,Lower Manhattan,300,719,630,393
+448,8,4,3,Greenpoint,185,100,93,125
+449,8,4,3,Lower East Side,1055,657,506,967
+450,8,4,3,Northwest Brooklyn,252,254,233,228
+451,8,4,3,Greenwich Village and Soho,435,664,512,630
+452,8,4,3,Northwest Queens,34,58,57,37
+453,8,4,3,Central Brooklyn,89,19,30,28
+454,8,4,3,Upper East Side,352,257,181,299
+455,8,4,3,Bushwick and Williamsburg,134,84,76,98
+456,8,4,3,Sunset Park,0,0,2,0
+457,8,5,4,Greenwich Village and Soho,390,641,475,613
+458,8,5,4,Chelsea and Clinton,1196,1429,1245,1413
+459,8,5,4,Gramercy Park and Murray Hill,591,978,957,597
+460,8,5,4,Central Brooklyn,73,29,29,33
+461,8,5,4,Lower East Side,937,697,423,970
+462,8,5,4,Bushwick and Williamsburg,124,108,87,135
+463,8,5,4,Greenpoint,145,120,85,144
+464,8,5,4,Lower Manhattan,311,610,520,385
+465,8,5,4,Upper West Side,406,233,100,325
+466,8,5,4,Northwest Brooklyn,215,215,194,218
+467,8,5,4,Upper East Side,282,264,168,296
+468,8,5,4,Northwest Queens,27,44,43,43
+469,8,5,4,Sunset Park,0,1,0,0
+470,8,5,4,East Harlem,0,0,0,1
+471,8,6,5,Chelsea and Clinton,232,626,204,566
+472,8,6,5,Lower East Side,243,436,195,418
+473,8,6,5,Upper West Side,92,225,61,169
+474,8,6,5,Central Brooklyn,13,30,8,28
+475,8,6,5,Greenwich Village and Soho,110,380,139,358
+476,8,6,5,Gramercy Park and Murray Hill,213,263,181,215
+477,8,6,5,Bushwick and Williamsburg,26,116,27,99
+478,8,6,5,Upper East Side,109,182,77,162
+479,8,6,5,Northwest Brooklyn,64,154,48,136
+480,8,6,5,Greenpoint,24,118,15,113
+481,8,6,5,Lower Manhattan,88,261,72,201
+482,8,6,5,Northwest Queens,9,22,6,24
+483,8,6,5,East Harlem,1,0,0,2
+484,8,7,6,Chelsea and Clinton,210,817,203,839
+485,8,7,6,Lower East Side,185,540,131,589
+486,8,7,6,Upper West Side,81,320,55,347
+487,8,7,6,Upper East Side,60,237,56,232
+488,8,7,6,Greenpoint,15,139,17,123
+489,8,7,6,Gramercy Park and Murray Hill,86,348,90,353
+490,8,7,6,Northwest Brooklyn,48,225,46,225
+491,8,7,6,Central Brooklyn,9,36,6,46
+492,8,7,6,Bushwick and Williamsburg,16,117,18,133
+493,8,7,6,Lower Manhattan,88,359,86,339
+494,8,7,6,Greenwich Village and Soho,91,420,98,428
+495,8,7,6,Northwest Queens,13,36,4,28
+496,8,7,6,East Harlem,4,10,5,12
+497,8,7,6,Hudson,0,0,0,0
+498,8,8,0,Chelsea and Clinton,1210,1471,1210,1531
+499,8,8,0,Lower East Side,923,586,450,866
+500,8,8,0,Northwest Queens,31,42,34,34
+501,8,8,0,Greenwich Village and Soho,401,691,531,554
+502,8,8,0,Bushwick and Williamsburg,94,65,61,86
+503,8,8,0,Gramercy Park and Murray Hill,760,1298,1024,701
+504,8,8,0,Northwest Brooklyn,220,219,196,197
+505,8,8,0,Greenpoint,154,81,76,88
+506,8,8,0,Upper West Side,271,244,71,340
+507,8,8,0,Lower Manhattan,340,749,579,396
+508,8,8,0,Upper East Side,276,278,132,305
+509,8,8,0,Central Brooklyn,83,25,22,44
+510,8,8,0,East Harlem,6,15,3,6
+511,8,8,0,Sunset Park,0,1,1,0
+512,8,9,1,Greenwich Village and Soho,432,665,556,576
+513,8,9,1,Greenpoint,157,87,95,114
+514,8,9,1,Lower East Side,1121,659,535,875
+515,8,9,1,Lower Manhattan,332,770,674,390
+516,8,9,1,Northwest Queens,32,53,55,44
+517,8,9,1,Chelsea and Clinton,1323,1645,1347,1632
+518,8,9,1,Gramercy Park and Murray Hill,782,1283,1155,706
+519,8,9,1,Northwest Brooklyn,267,239,229,199
+520,8,9,1,Bushwick and Williamsburg,165,86,100,100
+521,8,9,1,Upper West Side,409,271,91,363
+522,8,9,1,Upper East Side,342,239,176,309
+523,8,9,1,Central Brooklyn,84,20,32,39
+524,8,9,1,East Harlem,7,11,5,3
+525,8,9,1,Sunset Park,0,1,0,0
+526,8,9,1,Hudson,0,0,0,0
+527,8,10,2,Greenwich Village and Soho,396,618,553,548
+528,8,10,2,Chelsea and Clinton,1277,1501,1340,1488
+529,8,10,2,Northwest Queens,24,41,37,39
+530,8,10,2,Lower Manhattan,287,621,523,368
+531,8,10,2,Lower East Side,984,591,429,815
+532,8,10,2,Gramercy Park and Murray Hill,712,1231,1104,697
+533,8,10,2,Greenpoint,169,87,101,100
+534,8,10,2,Bushwick and Williamsburg,124,69,82,79
+535,8,10,2,Northwest Brooklyn,238,168,209,171
+536,8,10,2,Central Brooklyn,83,22,27,38
+537,8,10,2,Upper East Side,319,244,176,301
+538,8,10,2,Upper West Side,415,241,98,334
+539,8,10,2,East Harlem,7,14,8,6
+540,8,10,2,Sunset Park,1,0,3,0
+541,8,10,2,Hudson,0,0,0,0
+542,8,11,3,Lower East Side,921,519,442,756
+543,8,11,3,Greenwich Village and Soho,364,496,500,471
+544,8,11,3,Bushwick and Williamsburg,109,56,85,67
+545,8,11,3,Chelsea and Clinton,1225,1357,1236,1389
+546,8,11,3,Upper West Side,374,224,92,303
+547,8,11,3,Gramercy Park and Murray Hill,692,1041,981,632
+548,8,11,3,Upper East Side,286,214,152,260
+549,8,11,3,Northwest Queens,25,37,41,42
+550,8,11,3,Greenpoint,161,82,103,96
+551,8,11,3,Northwest Brooklyn,226,138,208,165
+552,8,11,3,Lower Manhattan,250,543,511,347
+553,8,11,3,Central Brooklyn,75,26,30,30
+554,8,11,3,East Harlem,4,15,7,11
+555,8,11,3,Sunset Park,1,0,1,0
+556,8,12,4,Greenwich Village and Soho,348,573,438,465
+557,8,12,4,Upper East Side,273,195,135,220
+558,8,12,4,Gramercy Park and Murray Hill,555,778,833,502
+559,8,12,4,Chelsea and Clinton,1027,1095,1040,1222
+560,8,12,4,Northwest Brooklyn,206,197,183,187
+561,8,12,4,Lower East Side,866,537,393,765
+562,8,12,4,Lower Manhattan,262,407,458,275
+563,8,12,4,Northwest Queens,22,33,35,33
+564,8,12,4,Bushwick and Williamsburg,96,67,75,80
+565,8,12,4,Greenpoint,114,83,77,92
+566,8,12,4,Upper West Side,318,208,85,255
+567,8,12,4,Central Brooklyn,58,25,25,28
+568,8,12,4,East Harlem,12,14,16,9
+569,8,12,4,Sunset Park,1,2,1,0
+570,8,13,5,Lower East Side,291,393,238,410
+571,8,13,5,Chelsea and Clinton,267,551,238,526
+572,8,13,5,Greenwich Village and Soho,163,318,157,278
+573,8,13,5,Northwest Brooklyn,80,125,57,130
+574,8,13,5,Northwest Queens,14,9,10,10
+575,8,13,5,Gramercy Park and Murray Hill,247,229,193,244
+576,8,13,5,Upper East Side,130,136,94,147
+577,8,13,5,Lower Manhattan,101,192,95,224
+578,8,13,5,Upper West Side,82,189,63,209
+579,8,13,5,Greenpoint,36,80,24,76
+580,8,13,5,Bushwick and Williamsburg,33,78,30,105
+581,8,13,5,Central Brooklyn,17,25,9,25
+582,8,13,5,East Harlem,12,10,12,18
+583,8,13,5,Sunset Park,0,0,0,0
+584,8,14,6,Northwest Brooklyn,43,120,35,143
+585,8,14,6,Lower East Side,167,418,136,481
+586,8,14,6,Bushwick and Williamsburg,15,77,23,83
+587,8,14,6,Greenwich Village and Soho,79,334,87,351
+588,8,14,6,Lower Manhattan,89,219,73,220
+589,8,14,6,Upper West Side,85,245,61,218
+590,8,14,6,Gramercy Park and Murray Hill,81,260,76,248
+591,8,14,6,Chelsea and Clinton,193,623,191,606
+592,8,14,6,Upper East Side,64,154,63,166
+593,8,14,6,Central Brooklyn,9,33,10,18
+594,8,14,6,Greenpoint,29,73,19,83
+595,8,14,6,Northwest Queens,10,27,7,24
+596,8,14,6,East Harlem,7,22,3,16
+597,8,15,0,Greenwich Village and Soho,354,589,530,489
+598,8,15,0,Lower East Side,839,604,396,841
+599,8,15,0,Chelsea and Clinton,1196,1353,1170,1424
+600,8,15,0,Bushwick and Williamsburg,101,66,60,90
+601,8,15,0,Upper West Side,268,227,80,333
+602,8,15,0,Northwest Brooklyn,196,204,177,170
+603,8,15,0,Lower Manhattan,318,690,534,371
+604,8,15,0,Gramercy Park and Murray Hill,676,1259,945,702
+605,8,15,0,Upper East Side,287,293,149,292
+606,8,15,0,Northwest Queens,33,46,44,42
+607,8,15,0,Greenpoint,153,96,99,110
+608,8,15,0,Central Brooklyn,63,23,28,25
+609,8,15,0,East Harlem,9,26,8,22
+610,8,15,0,Sunset Park,0,0,1,0
+611,8,16,1,Lower East Side,1016,603,446,859
+612,8,16,1,Chelsea and Clinton,1257,1444,1303,1434
+613,8,16,1,Northwest Brooklyn,218,162,208,164
+614,8,16,1,Upper East Side,296,242,142,277
+615,8,16,1,Greenpoint,177,91,110,88
+616,8,16,1,Lower Manhattan,265,620,541,385
+617,8,16,1,Gramercy Park and Murray Hill,702,1195,1034,699
+618,8,16,1,Greenwich Village and Soho,397,625,549,521
+619,8,16,1,Bushwick and Williamsburg,113,65,82,80
+620,8,16,1,Upper West Side,333,205,98,321
+621,8,16,1,Central Brooklyn,79,28,37,38
+622,8,16,1,Northwest Queens,32,48,43,36
+623,8,16,1,East Harlem,16,26,11,23
+624,8,16,1,Sunset Park,1,1,2,0
+625,8,17,2,Chelsea and Clinton,1309,1587,1238,1574
+626,8,17,2,Upper East Side,366,229,196,269
+627,8,17,2,Lower Manhattan,274,716,556,367
+628,8,17,2,Greenwich Village and Soho,403,661,543,587
+629,8,17,2,Gramercy Park and Murray Hill,676,1207,1054,683
+630,8,17,2,Lower East Side,988,635,476,845
+631,8,17,2,Bushwick and Williamsburg,131,65,89,86
+632,8,17,2,Greenpoint,171,91,102,98
+633,8,17,2,Upper West Side,361,288,95,327
+634,8,17,2,Northwest Brooklyn,202,198,186,168
+635,8,17,2,Northwest Queens,27,46,47,36
+636,8,17,2,Central Brooklyn,85,19,30,34
+637,8,17,2,East Harlem,15,28,15,25
+638,8,17,2,Sunset Park,0,1,1,0
+639,8,18,3,Chelsea and Clinton,1248,1556,1238,1510
+640,8,18,3,Bushwick and Williamsburg,124,70,87,93
+641,8,18,3,Greenpoint,168,99,93,96
+642,8,18,3,Greenwich Village and Soho,402,616,476,561
+643,8,18,3,Upper West Side,386,288,86,366
+644,8,18,3,Lower East Side,958,663,463,873
+645,8,18,3,Lower Manhattan,246,621,498,368
+646,8,18,3,Gramercy Park and Murray Hill,685,1181,1038,686
+647,8,18,3,Central Brooklyn,70,19,26,32
+648,8,18,3,Upper East Side,327,240,152,286
+649,8,18,3,Northwest Brooklyn,206,198,194,183
+650,8,18,3,East Harlem,19,23,19,19
+651,8,18,3,Northwest Queens,31,52,47,42
+652,8,18,3,Sunset Park,0,1,1,0
+653,8,19,4,Lower East Side,877,689,416,896
+654,8,19,4,Lower Manhattan,250,563,466,355
+655,8,19,4,Chelsea and Clinton,1134,1238,1172,1319
+656,8,19,4,Greenwich Village and Soho,338,637,472,542
+657,8,19,4,Upper West Side,378,290,96,331
+658,8,19,4,Greenpoint,142,113,95,136
+659,8,19,4,Gramercy Park and Murray Hill,581,828,888,559
+660,8,19,4,Northwest Brooklyn,221,199,183,189
+661,8,19,4,Bushwick and Williamsburg,98,105,70,106
+662,8,19,4,Upper East Side,289,242,164,287
+663,8,19,4,Northwest Queens,25,35,40,29
+664,8,19,4,East Harlem,24,23,13,23
+665,8,19,4,Central Brooklyn,70,23,28,28
+666,8,19,4,Sunset Park,3,0,3,0
+667,8,20,5,Gramercy Park and Murray Hill,257,320,220,285
+668,8,20,5,Chelsea and Clinton,280,755,257,726
+669,8,20,5,Bushwick and Williamsburg,29,128,37,139
+670,8,20,5,Northwest Brooklyn,69,193,57,199
+671,8,20,5,Lower East Side,320,507,233,561
+672,8,20,5,Lower Manhattan,95,340,75,358
+673,8,20,5,Greenwich Village and Soho,158,434,180,442
+674,8,20,5,Upper West Side,113,304,68,304
+675,8,20,5,Upper East Side,166,195,136,169
+676,8,20,5,Greenpoint,42,131,34,138
+677,8,20,5,Central Brooklyn,24,38,12,34
+678,8,20,5,East Harlem,10,20,2,25
+679,8,20,5,Northwest Queens,14,27,7,41
+680,8,20,5,Sunset Park,0,0,0,0
+681,8,21,6,Lower East Side,156,387,111,486
+682,8,21,6,Bushwick and Williamsburg,17,87,15,101
+683,8,21,6,Greenpoint,12,90,13,121
+684,8,21,6,Upper West Side,71,274,64,249
+685,8,21,6,Lower Manhattan,65,199,46,217
+686,8,21,6,Greenwich Village and Soho,76,275,67,325
+687,8,21,6,Chelsea and Clinton,190,580,171,666
+688,8,21,6,Central Brooklyn,8,25,7,34
+689,8,21,6,Gramercy Park and Murray Hill,64,232,62,287
+690,8,21,6,Upper East Side,51,147,36,153
+691,8,21,6,Northwest Brooklyn,38,181,32,215
+692,8,21,6,Northwest Queens,1,19,3,16
+693,8,21,6,East Harlem,1,14,2,22
+694,8,21,6,Hudson,0,0,0,0
+695,8,22,0,Greenwich Village and Soho,423,711,531,567
+696,8,22,0,Lower East Side,877,694,428,953
+697,8,22,0,Chelsea and Clinton,1294,1686,1298,1579
+698,8,22,0,Gramercy Park and Murray Hill,752,1281,1047,716
+699,8,22,0,Lower Manhattan,333,799,569,435
+700,8,22,0,Central Brooklyn,62,40,18,36
+701,8,22,0,Upper West Side,344,259,83,397
+702,8,22,0,Greenpoint,142,89,81,119
+703,8,22,0,Northwest Brooklyn,247,253,197,249
+704,8,22,0,Upper East Side,314,276,186,325
+705,8,22,0,East Harlem,24,35,10,37
+706,8,22,0,Bushwick and Williamsburg,142,91,98,110
+707,8,22,0,Northwest Queens,42,45,45,31
+708,8,22,0,Sunset Park,0,1,2,2
+709,8,22,0,Hudson,0,0,0,0
+710,8,23,1,Greenwich Village and Soho,454,730,562,603
+711,8,23,1,Chelsea and Clinton,1391,1714,1467,1687
+712,8,23,1,Northwest Brooklyn,284,245,242,217
+713,8,23,1,Gramercy Park and Murray Hill,761,1319,1170,773
+714,8,23,1,Lower East Side,1014,677,464,953
+715,8,23,1,Greenpoint,178,97,107,112
+716,8,23,1,Upper West Side,457,291,126,417
+717,8,23,1,Lower Manhattan,364,753,634,415
+718,8,23,1,Northwest Queens,38,51,52,43
+719,8,23,1,Bushwick and Williamsburg,159,103,92,115
+720,8,23,1,Central Brooklyn,75,32,29,36
+721,8,23,1,Upper East Side,366,301,179,314
+722,8,23,1,East Harlem,26,38,20,30
+723,8,23,1,Sunset Park,0,1,2,0
+724,8,23,1,Hudson,0,0,1,0
+725,8,24,2,Chelsea and Clinton,1365,1732,1445,1631
+726,8,24,2,Upper West Side,478,290,126,406
+727,8,24,2,Lower East Side,1064,718,500,949
+728,8,24,2,Central Brooklyn,90,31,27,43
+729,8,24,2,Gramercy Park and Murray Hill,779,1274,1132,728
+730,8,24,2,Upper East Side,373,279,190,346
+731,8,24,2,Bushwick and Williamsburg,137,89,89,92
+732,8,24,2,Lower Manhattan,319,710,628,363
+733,8,24,2,Greenpoint,179,114,99,118
+734,8,24,2,Greenwich Village and Soho,464,703,582,636
+735,8,24,2,Northwest Queens,29,48,50,39
+736,8,24,2,Northwest Brooklyn,303,273,249,221
+737,8,24,2,East Harlem,28,37,21,29
+738,8,24,2,Sunset Park,0,2,1,0
+739,8,24,2,Canarsie and Flatlands,0,0,0,1
+740,8,25,3,Greenpoint,196,84,94,102
+741,8,25,3,Greenwich Village and Soho,416,515,556,447
+742,8,25,3,Lower Manhattan,328,484,597,316
+743,8,25,3,Bushwick and Williamsburg,150,85,104,105
+744,8,25,3,Lower East Side,993,499,452,733
+745,8,25,3,Gramercy Park and Murray Hill,725,960,1149,641
+746,8,25,3,Chelsea and Clinton,1238,1244,1283,1291
+747,8,25,3,Upper West Side,506,215,136,333
+748,8,25,3,Upper East Side,369,219,174,247
+749,8,25,3,Northwest Brooklyn,306,203,248,215
+750,8,25,3,East Harlem,30,39,22,18
+751,8,25,3,Northwest Queens,28,44,52,38
+752,8,25,3,Central Brooklyn,71,15,24,41
+753,8,25,3,Canarsie and Flatlands,1,0,0,0
+754,8,25,3,Sunset Park,0,2,1,0
+755,8,26,4,Greenwich Village and Soho,386,605,462,599
+756,8,26,4,Chelsea and Clinton,1132,1332,1140,1323
+757,8,26,4,Greenpoint,139,115,86,121
+758,8,26,4,Upper West Side,415,309,112,373
+759,8,26,4,Bushwick and Williamsburg,126,92,70,107
+760,8,26,4,Lower East Side,884,698,409,911
+761,8,26,4,Lower Manhattan,265,575,499,354
+762,8,26,4,Northwest Brooklyn,284,282,229,277
+763,8,26,4,Gramercy Park and Murray Hill,570,853,929,640
+764,8,26,4,Upper East Side,293,236,165,281
+765,8,26,4,Central Brooklyn,58,26,27,35
+766,8,26,4,Northwest Queens,26,42,57,48
+767,8,26,4,East Harlem,21,31,12,31
+768,8,26,4,Canarsie and Flatlands,0,1,1,1
+769,8,26,4,Sunset Park,0,3,0,0
+770,8,27,5,Bushwick and Williamsburg,30,173,30,138
+771,8,27,5,Greenwich Village and Soho,123,377,124,436
+772,8,27,5,Gramercy Park and Murray Hill,123,283,119,275
+773,8,27,5,Chelsea and Clinton,253,715,238,774
+774,8,27,5,Lower East Side,226,623,178,631
+775,8,27,5,Upper West Side,108,311,78,297
+776,8,27,5,Central Brooklyn,16,45,12,40
+777,8,27,5,Northwest Brooklyn,90,270,76,319
+778,8,27,5,Lower Manhattan,83,374,66,323
+779,8,27,5,Upper East Side,81,236,58,208
+780,8,27,5,Greenpoint,40,150,30,166
+781,8,27,5,Northwest Queens,13,32,11,27
+782,8,27,5,East Harlem,8,25,7,35
+783,8,27,5,Canarsie and Flatlands,0,2,2,1
+784,8,28,6,Greenwich Village and Soho,86,471,107,483
+785,8,28,6,Lower East Side,188,534,137,571
+786,8,28,6,Northwest Brooklyn,59,332,49,353
+787,8,28,6,Gramercy Park and Murray Hill,88,304,75,327
+788,8,28,6,Bushwick and Williamsburg,12,102,12,107
+789,8,28,6,Chelsea and Clinton,222,851,183,859
+790,8,28,6,Northwest Queens,11,49,11,45
+791,8,28,6,Upper West Side,100,412,75,424
+792,8,28,6,Lower Manhattan,74,421,86,372
+793,8,28,6,Greenpoint,30,140,30,154
+794,8,28,6,Central Brooklyn,12,43,7,42
+795,8,28,6,Upper East Side,48,284,62,230
+796,8,28,6,Canarsie and Flatlands,0,1,0,2
+797,8,28,6,East Harlem,6,29,0,22
+798,8,29,0,Chelsea and Clinton,1237,1632,1231,1516
+799,8,29,0,Lower East Side,813,607,419,824
+800,8,29,0,Lower Manhattan,297,644,558,342
+801,8,29,0,Greenwich Village and Soho,402,657,524,527
+802,8,29,0,Gramercy Park and Murray Hill,715,1279,1012,744
+803,8,29,0,Northwest Brooklyn,293,303,225,280
+804,8,29,0,Bushwick and Williamsburg,99,74,78,93
+805,8,29,0,Central Brooklyn,63,20,26,30
+806,8,29,0,Upper East Side,325,277,189,317
+807,8,29,0,Greenpoint,135,92,64,112
+808,8,29,0,Northwest Queens,35,48,52,34
+809,8,29,0,Upper West Side,374,243,104,422
+810,8,29,0,East Harlem,25,43,22,31
+811,8,29,0,Canarsie and Flatlands,1,0,0,1
+812,8,29,0,Sunset Park,0,3,0,0
+813,8,29,0,Hudson,0,0,0,0
+814,8,30,1,Chelsea and Clinton,1319,1683,1466,1660
+815,8,30,1,Northwest Brooklyn,391,283,300,275
+816,8,30,1,Lower East Side,1094,741,507,985
+817,8,30,1,Greenwich Village and Soho,437,691,595,577
+818,8,30,1,Lower Manhattan,330,732,658,385
+819,8,30,1,Northwest Queens,26,64,41,36
+820,8,30,1,Greenpoint,192,92,112,127
+821,8,30,1,Gramercy Park and Murray Hill,743,1276,1126,786
+822,8,30,1,Upper West Side,484,288,114,422
+823,8,30,1,Central Brooklyn,76,26,32,44
+824,8,30,1,Upper East Side,367,302,201,302
+825,8,30,1,Bushwick and Williamsburg,151,83,89,94
+826,8,30,1,East Harlem,32,40,30,38
+827,8,30,1,Canarsie and Flatlands,3,0,0,1
+828,8,30,1,Sunset Park,0,2,1,0
+829,8,31,2,Greenwich Village and Soho,444,657,559,569
+830,8,31,2,Gramercy Park and Murray Hill,731,1304,1066,799
+831,8,31,2,Greenpoint,187,80,109,127
+832,8,31,2,Lower East Side,1031,670,524,942
+833,8,31,2,Upper West Side,469,263,119,394
+834,8,31,2,Northwest Brooklyn,390,315,332,336
+835,8,31,2,Chelsea and Clinton,1297,1661,1360,1540
+836,8,31,2,Lower Manhattan,339,688,593,354
+837,8,31,2,Upper East Side,334,269,171,300
+838,8,31,2,Bushwick and Williamsburg,147,108,98,110
+839,8,31,2,Northwest Queens,29,60,54,44
+840,8,31,2,East Harlem,41,45,25,32
+841,8,31,2,Central Brooklyn,76,26,28,40
+842,8,31,2,Canarsie and Flatlands,0,0,2,0
+843,8,31,2,Sunset Park,0,6,2,0
+844,9,1,3,Lower East Side,547,561,281,756
+845,9,1,3,Lower Manhattan,104,420,201,240
+846,9,1,3,Chelsea and Clinton,708,1302,684,1305
+847,9,1,3,Gramercy Park and Murray Hill,373,990,593,661
+848,9,1,3,Northwest Brooklyn,166,249,142,220
+849,9,1,3,Greenwich Village and Soho,219,530,278,436
+850,9,1,3,Greenpoint,85,91,70,98
+851,9,1,3,Upper East Side,194,194,106,225
+852,9,1,3,Upper West Side,186,201,63,291
+853,9,1,3,Central Brooklyn,29,20,13,25
+854,9,1,3,Bushwick and Williamsburg,77,71,54,74
+855,9,1,3,Northwest Queens,13,36,20,31
+856,9,1,3,East Harlem,9,36,10,24
+857,9,1,3,Sunset Park,0,2,1,1
+858,9,1,3,Central Harlem,0,0,0,0
+859,9,1,3,Canarsie and Flatlands,0,1,0,0
+860,9,2,4,Chelsea and Clinton,993,1014,1010,1055
+861,9,2,4,Bushwick and Williamsburg,99,77,78,110
+862,9,2,4,Gramercy Park and Murray Hill,554,555,810,417
+863,9,2,4,Lower East Side,741,635,418,739
+864,9,2,4,Greenwich Village and Soho,336,609,434,553
+865,9,2,4,Lower Manhattan,251,465,442,350
+866,9,2,4,Upper West Side,394,318,113,378
+867,9,2,4,Central Brooklyn,63,39,25,44
+868,9,2,4,Northwest Queens,22,36,28,23
+869,9,2,4,Upper East Side,292,203,171,220
+870,9,2,4,Northwest Brooklyn,314,335,245,355
+871,9,2,4,Greenpoint,140,118,81,126
+872,9,2,4,East Harlem,28,36,16,40
+873,9,2,4,Central Harlem,3,21,2,21
+874,9,2,4,Canarsie and Flatlands,0,2,0,3
+875,9,2,4,Sunset Park,0,2,0,1
+876,9,3,5,Greenwich Village and Soho,72,433,100,378
+877,9,3,5,Chelsea and Clinton,261,697,210,722
+878,9,3,5,Lower East Side,166,473,133,472
+879,9,3,5,Upper East Side,70,245,89,230
+880,9,3,5,Upper West Side,102,321,64,293
+881,9,3,5,Gramercy Park and Murray Hill,128,247,99,297
+882,9,3,5,Lower Manhattan,78,381,65,422
+883,9,3,5,Greenpoint,42,81,32,95
+884,9,3,5,Northwest Brooklyn,91,378,73,364
+885,9,3,5,Bushwick and Williamsburg,22,111,19,87
+886,9,3,5,Central Brooklyn,11,47,10,25
+887,9,3,5,Northwest Queens,13,36,9,39
+888,9,3,5,East Harlem,7,31,7,17
+889,9,3,5,Central Harlem,2,9,1,14
+890,9,3,5,Canarsie and Flatlands,0,1,0,0
+891,9,3,5,Sunset Park,0,0,0,0
+892,9,4,6,Chelsea and Clinton,150,806,142,883
+893,9,4,6,Gramercy Park and Murray Hill,75,246,64,298
+894,9,4,6,Lower East Side,134,447,92,525
+895,9,4,6,East Harlem,8,22,6,21
+896,9,4,6,Northwest Brooklyn,58,408,61,425
+897,9,4,6,Greenwich Village and Soho,62,527,69,484
+898,9,4,6,Upper West Side,87,399,70,415
+899,9,4,6,Greenpoint,28,132,20,137
+900,9,4,6,Bushwick and Williamsburg,23,113,21,134
+901,9,4,6,Upper East Side,60,275,32,230
+902,9,4,6,Lower Manhattan,44,402,48,452
+903,9,4,6,Northwest Queens,5,28,9,48
+904,9,4,6,Central Brooklyn,18,40,7,42
+905,9,4,6,Central Harlem,2,35,2,33
+906,9,4,6,Sunset Park,0,0,0,0
+907,9,4,6,Canarsie and Flatlands,0,4,0,3
+908,9,5,0,Chelsea and Clinton,197,810,163,839
+909,9,5,0,Greenwich Village and Soho,81,502,97,550
+910,9,5,0,Greenpoint,32,141,21,127
+911,9,5,0,Lower East Side,141,550,108,592
+912,9,5,0,Central Brooklyn,12,56,4,55
+913,9,5,0,Gramercy Park and Murray Hill,78,349,87,386
+914,9,5,0,East Harlem,6,35,3,38
+915,9,5,0,Northwest Queens,3,37,3,36
+916,9,5,0,Upper East Side,59,263,37,254
+917,9,5,0,Lower Manhattan,57,431,65,385
+918,9,5,0,Northwest Brooklyn,78,439,72,471
+919,9,5,0,Bushwick and Williamsburg,18,104,22,123
+920,9,5,0,Upper West Side,76,412,58,401
+921,9,5,0,Central Harlem,1,26,0,28
+922,9,5,0,Canarsie and Flatlands,1,11,0,0
+923,9,5,0,Sunset Park,0,0,0,0
+924,9,6,1,Lower Manhattan,287,650,479,361
+925,9,6,1,Lower East Side,864,675,473,865
+926,9,6,1,Bushwick and Williamsburg,108,68,61,94
+927,9,6,1,Northwest Queens,19,41,37,34
+928,9,6,1,Greenwich Village and Soho,384,639,550,531
+929,9,6,1,Chelsea and Clinton,1160,1498,1136,1449
+930,9,6,1,Gramercy Park and Murray Hill,741,1278,1021,769
+931,9,6,1,Greenpoint,140,83,86,86
+932,9,6,1,East Harlem,22,38,17,25
+933,9,6,1,Northwest Brooklyn,327,297,265,290
+934,9,6,1,Upper West Side,226,219,101,337
+935,9,6,1,Upper East Side,298,249,180,306
+936,9,6,1,Central Brooklyn,68,20,26,37
+937,9,6,1,Central Harlem,5,2,3,9
+938,9,6,1,Canarsie and Flatlands,2,3,5,0
+939,9,6,1,Sunset Park,0,1,3,0
+940,9,7,2,Northwest Brooklyn,481,315,426,330
+941,9,7,2,Chelsea and Clinton,1383,1759,1566,1654
+942,9,7,2,Greenwich Village and Soho,513,747,701,619
+943,9,7,2,Lower East Side,1021,689,545,903
+944,9,7,2,Central Brooklyn,87,25,27,32
+945,9,7,2,Greenpoint,202,99,120,121
+946,9,7,2,Gramercy Park and Murray Hill,851,1316,1193,848
+947,9,7,2,Bushwick and Williamsburg,141,85,81,103
+948,9,7,2,Upper West Side,498,278,151,398
+949,9,7,2,East Harlem,65,39,41,32
+950,9,7,2,Lower Manhattan,335,727,631,387
+951,9,7,2,Upper East Side,499,276,255,352
+952,9,7,2,Northwest Queens,35,50,57,37
+953,9,7,2,Central Harlem,7,10,4,17
+954,9,7,2,Canarsie and Flatlands,1,1,2,1
+955,9,7,2,Sunset Park,0,1,4,1
+956,9,8,3,Chelsea and Clinton,1532,1624,1520,1636
+957,9,8,3,Lower Manhattan,355,747,648,405
+958,9,8,3,Greenwich Village and Soho,503,747,665,673
+959,9,8,3,Upper East Side,436,256,249,302
+960,9,8,3,Northwest Queens,39,29,55,33
+961,9,8,3,Lower East Side,1057,735,552,942
+962,9,8,3,Northwest Brooklyn,493,392,400,358
+963,9,8,3,Gramercy Park and Murray Hill,796,1281,1188,816
+964,9,8,3,Greenpoint,180,93,101,92
+965,9,8,3,Upper West Side,532,287,160,407
+966,9,8,3,Bushwick and Williamsburg,150,64,101,108
+967,9,8,3,Canarsie and Flatlands,2,0,3,1
+968,9,8,3,Central Brooklyn,81,27,37,36
+969,9,8,3,East Harlem,38,37,36,29
+970,9,8,3,Central Harlem,7,9,4,11
+971,9,8,3,Sunset Park,0,2,5,1
+972,9,9,4,Lower Manhattan,318,634,550,400
+973,9,9,4,Greenwich Village and Soho,419,724,599,626
+974,9,9,4,Lower East Side,942,696,491,968
+975,9,9,4,Chelsea and Clinton,1345,1531,1387,1548
+976,9,9,4,Upper East Side,383,268,198,318
+977,9,9,4,Upper West Side,523,273,174,412
+978,9,9,4,Northwest Brooklyn,461,350,344,394
+979,9,9,4,Gramercy Park and Murray Hill,722,1169,1104,668
+980,9,9,4,Central Brooklyn,68,30,35,41
+981,9,9,4,Bushwick and Williamsburg,136,101,109,110
+982,9,9,4,Greenpoint,179,99,106,107
+983,9,9,4,Northwest Queens,26,42,45,41
+984,9,9,4,East Harlem,35,39,31,36
+985,9,9,4,Canarsie and Flatlands,0,4,1,0
+986,9,9,4,Central Harlem,7,17,1,17
+987,9,9,4,Sunset Park,0,1,2,0
+988,9,10,5,Northwest Brooklyn,121,384,128,372
+989,9,10,5,Upper East Side,99,170,102,178
+990,9,10,5,Bushwick and Williamsburg,44,117,25,109
+991,9,10,5,Chelsea and Clinton,318,746,266,756
+992,9,10,5,Lower East Side,242,564,211,578
+993,9,10,5,Lower Manhattan,101,308,77,323
+994,9,10,5,Greenwich Village and Soho,129,510,164,494
+995,9,10,5,Gramercy Park and Murray Hill,137,284,129,314
+996,9,10,5,Upper West Side,141,294,99,299
+997,9,10,5,Greenpoint,57,110,39,126
+998,9,10,5,Central Brooklyn,31,37,16,45
+999,9,10,5,Northwest Queens,14,33,12,35
+1000,9,10,5,East Harlem,10,39,12,26
+1001,9,10,5,Canarsie and Flatlands,1,0,2,2
+1002,9,10,5,Central Harlem,11,20,6,17
+1003,9,10,5,Sunset Park,0,0,0,0
+1004,9,11,6,Northwest Brooklyn,105,484,97,479
+1005,9,11,6,Greenwich Village and Soho,97,514,136,557
+1006,9,11,6,Chelsea and Clinton,266,952,226,898
+1007,9,11,6,Greenpoint,38,157,24,166
+1008,9,11,6,Gramercy Park and Murray Hill,97,360,92,324
+1009,9,11,6,Lower East Side,197,658,129,701
+1010,9,11,6,Bushwick and Williamsburg,25,157,22,121
+1011,9,11,6,Central Harlem,4,15,4,19
+1012,9,11,6,Upper East Side,52,251,50,230
+1013,9,11,6,Lower Manhattan,107,366,96,434
+1014,9,11,6,Central Brooklyn,14,51,10,37
+1015,9,11,6,Upper West Side,102,395,88,419
+1016,9,11,6,East Harlem,9,29,3,32
+1017,9,11,6,Northwest Queens,10,31,6,33
+1018,9,11,6,Canarsie and Flatlands,1,7,0,7
+1019,9,11,6,Sunset Park,0,0,0,0
+1020,9,12,0,Northwest Brooklyn,434,415,315,436
+1021,9,12,0,Upper West Side,252,312,108,473
+1022,9,12,0,Chelsea and Clinton,1464,1792,1487,1706
+1023,9,12,0,Greenwich Village and Soho,471,817,618,638
+1024,9,12,0,Lower East Side,1006,727,460,993
+1025,9,12,0,Gramercy Park and Murray Hill,841,1385,1167,854
+1026,9,12,0,Lower Manhattan,346,834,677,434
+1027,9,12,0,Upper East Side,355,279,189,353
+1028,9,12,0,Greenpoint,207,100,105,138
+1029,9,12,0,Bushwick and Williamsburg,131,104,88,116
+1030,9,12,0,Central Brooklyn,82,37,20,46
+1031,9,12,0,East Harlem,49,33,29,40
+1032,9,12,0,Northwest Queens,15,53,41,43
+1033,9,12,0,Central Harlem,16,17,4,20
+1034,9,12,0,Canarsie and Flatlands,2,5,2,2
+1035,9,12,0,Sunset Park,0,1,3,0
+1036,9,13,1,Greenwich Village and Soho,523,827,744,637
+1037,9,13,1,Lower East Side,1135,772,569,1012
+1038,9,13,1,Chelsea and Clinton,1525,1836,1644,1775
+1039,9,13,1,Gramercy Park and Murray Hill,857,1409,1309,802
+1040,9,13,1,Bushwick and Williamsburg,142,79,81,89
+1041,9,13,1,Upper West Side,612,318,192,437
+1042,9,13,1,Greenpoint,222,90,118,116
+1043,9,13,1,Lower Manhattan,416,831,774,459
+1044,9,13,1,Central Brooklyn,96,24,25,49
+1045,9,13,1,Upper East Side,407,268,245,317
+1046,9,13,1,Northwest Queens,39,51,62,49
+1047,9,13,1,Northwest Brooklyn,570,393,466,346
+1048,9,13,1,Canarsie and Flatlands,2,1,2,2
+1049,9,13,1,East Harlem,51,40,30,28
+1050,9,13,1,Central Harlem,10,11,3,17
+1051,9,13,1,Sunset Park,0,0,2,0
+1052,9,13,1,Hudson,0,0,0,1
+1053,9,14,2,Bushwick and Williamsburg,155,50,101,88
+1054,9,14,2,Lower East Side,1221,376,587,649
+1055,9,14,2,Northwest Brooklyn,592,238,503,267
+1056,9,14,2,Gramercy Park and Murray Hill,857,527,1307,490
+1057,9,14,2,Greenwich Village and Soho,493,418,711,446
+1058,9,14,2,Lower Manhattan,405,446,765,315
+1059,9,14,2,Chelsea and Clinton,1480,710,1614,992
+1060,9,14,2,Upper West Side,620,94,162,206
+1061,9,14,2,Central Brooklyn,93,18,35,33
+1062,9,14,2,Upper East Side,464,93,256,178
+1063,9,14,2,Greenpoint,230,66,113,82
+1064,9,14,2,East Harlem,53,14,39,16
+1065,9,14,2,Northwest Queens,26,19,63,20
+1066,9,14,2,Canarsie and Flatlands,3,1,3,4
+1067,9,14,2,Central Harlem,10,5,5,5
+1068,9,14,2,Sunset Park,1,0,4,0
+1069,9,14,2,Highlands,0,1,0,2
+1070,9,15,3,Chelsea and Clinton,1618,1853,1647,1838
+1071,9,15,3,Greenpoint,186,112,101,129
+1072,9,15,3,Lower East Side,1142,792,552,1105
+1073,9,15,3,Greenwich Village and Soho,499,826,686,691
+1074,9,15,3,Gramercy Park and Murray Hill,880,1442,1372,820
+1075,9,15,3,Bushwick and Williamsburg,141,103,93,109
+1076,9,15,3,Upper West Side,524,361,159,507
+1077,9,15,3,Northwest Brooklyn,561,434,450,386
+1078,9,15,3,Central Brooklyn,96,36,28,44
+1079,9,15,3,Upper East Side,454,305,275,385
+1080,9,15,3,Lower Manhattan,404,791,745,428
+1081,9,15,3,East Harlem,42,54,35,39
+1082,9,15,3,Northwest Queens,40,47,61,34
+1083,9,15,3,Canarsie and Flatlands,1,1,5,0
+1084,9,15,3,Central Harlem,11,4,3,6
+1085,9,15,3,Sunset Park,0,3,3,0
+1086,9,16,4,Lower East Side,1091,814,531,1163
+1087,9,16,4,Greenwich Village and Soho,457,909,636,746
+1088,9,16,4,Central Brooklyn,91,35,28,47
+1089,9,16,4,Lower Manhattan,387,823,714,512
+1090,9,16,4,Greenpoint,189,108,112,136
+1091,9,16,4,Chelsea and Clinton,1482,1858,1571,1774
+1092,9,16,4,Central Harlem,9,14,4,14
+1093,9,16,4,East Harlem,47,44,40,33
+1094,9,16,4,Upper West Side,689,291,180,486
+1095,9,16,4,Northwest Queens,39,66,67,49
+1096,9,16,4,Northwest Brooklyn,557,442,451,497
+1097,9,16,4,Gramercy Park and Murray Hill,761,1310,1257,812
+1098,9,16,4,Bushwick and Williamsburg,165,98,99,107
+1099,9,16,4,Upper East Side,442,277,232,377
+1100,9,16,4,Canarsie and Flatlands,3,2,3,4
+1101,9,16,4,Sunset Park,0,3,0,0
+1102,9,17,5,Bushwick and Williamsburg,45,185,41,187
+1103,9,17,5,Upper West Side,160,444,106,428
+1104,9,17,5,Lower East Side,248,637,188,734
+1105,9,17,5,Gramercy Park and Murray Hill,159,399,179,368
+1106,9,17,5,Greenwich Village and Soho,150,609,172,657
+1107,9,17,5,Chelsea and Clinton,311,1050,291,1024
+1108,9,17,5,Upper East Side,100,222,85,264
+1109,9,17,5,Central Brooklyn,15,47,7,46
+1110,9,17,5,Greenpoint,44,172,34,171
+1111,9,17,5,Lower Manhattan,116,433,102,496
+1112,9,17,5,Northwest Brooklyn,145,563,133,559
+1113,9,17,5,East Harlem,12,31,9,30
+1114,9,17,5,Northwest Queens,5,34,6,34
+1115,9,17,5,Central Harlem,7,32,5,29
+1116,9,17,5,Canarsie and Flatlands,0,1,0,8
+1117,9,17,5,Sunset Park,0,0,0,0
+1118,9,18,6,Northwest Brooklyn,115,470,95,480
+1119,9,18,6,Chelsea and Clinton,239,834,227,834
+1120,9,18,6,Gramercy Park and Murray Hill,92,398,84,324
+1121,9,18,6,Upper West Side,136,389,96,438
+1122,9,18,6,Greenwich Village and Soho,99,509,125,542
+1123,9,18,6,Bushwick and Williamsburg,30,132,30,138
+1124,9,18,6,Lower Manhattan,75,339,63,349
+1125,9,18,6,Lower East Side,209,652,136,705
+1126,9,18,6,Greenpoint,28,139,18,184
+1127,9,18,6,Canarsie and Flatlands,0,3,0,2
+1128,9,18,6,Upper East Side,81,278,93,274
+1129,9,18,6,Central Brooklyn,18,51,5,51
+1130,9,18,6,Northwest Queens,9,60,7,40
+1131,9,18,6,East Harlem,10,27,8,29
+1132,9,18,6,Central Harlem,10,9,4,25
+1133,9,18,6,Hudson,0,0,0,0
+1134,9,18,6,Sunset Park,0,0,0,0
+1135,9,19,0,Chelsea and Clinton,573,1241,641,1140
+1136,9,19,0,Lower East Side,440,614,243,753
+1137,9,19,0,Gramercy Park and Murray Hill,306,828,488,558
+1138,9,19,0,Upper West Side,213,209,90,301
+1139,9,19,0,Northwest Brooklyn,146,303,147,291
+1140,9,19,0,Northwest Queens,12,43,22,24
+1141,9,19,0,Lower Manhattan,110,525,205,294
+1142,9,19,0,Upper East Side,146,201,78,214
+1143,9,19,0,Bushwick and Williamsburg,56,71,37,73
+1144,9,19,0,Greenwich Village and Soho,178,554,291,448
+1145,9,19,0,Greenpoint,67,75,52,92
+1146,9,19,0,Central Brooklyn,28,23,16,31
+1147,9,19,0,East Harlem,11,29,18,21
+1148,9,19,0,Central Harlem,2,3,2,3
+1149,9,19,0,Canarsie and Flatlands,0,0,0,0
+1150,9,19,0,Sunset Park,1,0,2,1
+1151,9,20,1,Chelsea and Clinton,1502,1857,1592,1737
+1152,9,20,1,Greenwich Village and Soho,492,812,695,679
+1153,9,20,1,Lower East Side,1045,754,521,1021
+1154,9,20,1,Northwest Brooklyn,526,481,439,462
+1155,9,20,1,Upper West Side,561,312,196,460
+1156,9,20,1,Bushwick and Williamsburg,140,90,106,84
+1157,9,20,1,Upper East Side,427,301,245,334
+1158,9,20,1,Northwest Queens,37,66,65,45
+1159,9,20,1,Lower Manhattan,406,835,699,448
+1160,9,20,1,Central Brooklyn,95,27,34,37
+1161,9,20,1,Gramercy Park and Murray Hill,826,1338,1252,823
+1162,9,20,1,Greenpoint,214,92,118,129
+1163,9,20,1,East Harlem,49,46,36,44
+1164,9,20,1,Central Harlem,9,7,2,16
+1165,9,20,1,Sunset Park,0,2,3,0
+1166,9,20,1,Canarsie and Flatlands,0,1,1,1
+1167,9,20,1,Hudson,0,0,0,0
+1168,9,21,2,Upper East Side,492,319,284,360
+1169,9,21,2,Greenwich Village and Soho,504,786,671,733
+1170,9,21,2,Lower East Side,1119,776,549,1028
+1171,9,21,2,Gramercy Park and Murray Hill,877,1352,1317,827
+1172,9,21,2,Lower Manhattan,393,759,715,444
+1173,9,21,2,Bushwick and Williamsburg,154,93,110,126
+1174,9,21,2,Greenpoint,232,107,126,123
+1175,9,21,2,Northwest Brooklyn,582,422,488,460
+1176,9,21,2,Chelsea and Clinton,1539,1751,1675,1714
+1177,9,21,2,Upper West Side,600,344,189,484
+1178,9,21,2,Central Brooklyn,109,24,31,38
+1179,9,21,2,East Harlem,53,42,38,29
+1180,9,21,2,Canarsie and Flatlands,1,1,6,5
+1181,9,21,2,Northwest Queens,37,59,76,40
+1182,9,21,2,Central Harlem,11,11,5,28
+1183,9,21,2,Sunset Park,0,1,4,0
+1184,9,22,3,Chelsea and Clinton,1627,1866,1692,1812
+1185,9,22,3,Bushwick and Williamsburg,150,104,97,113
+1186,9,22,3,Greenwich Village and Soho,491,818,656,689
+1187,9,22,3,Lower East Side,1158,755,568,1065
+1188,9,22,3,Lower Manhattan,358,832,760,466
+1189,9,22,3,Northwest Brooklyn,614,464,501,462
+1190,9,22,3,Northwest Queens,45,50,82,38
+1191,9,22,3,Central Brooklyn,97,26,36,46
+1192,9,22,3,Gramercy Park and Murray Hill,821,1363,1279,832
+1193,9,22,3,Greenpoint,219,116,123,153
+1194,9,22,3,Upper East Side,456,317,263,334
+1195,9,22,3,Upper West Side,646,353,191,480
+1196,9,22,3,Canarsie and Flatlands,5,3,4,4
+1197,9,22,3,East Harlem,52,35,41,49
+1198,9,22,3,Central Harlem,10,19,4,20
+1199,9,22,3,Sunset Park,0,8,2,1
+1200,9,23,4,Greenwich Village and Soho,469,849,644,753
+1201,9,23,4,Gramercy Park and Murray Hill,759,1242,1266,794
+1202,9,23,4,Northwest Brooklyn,572,438,463,466
+1203,9,23,4,Upper East Side,468,347,264,378
+1204,9,23,4,Central Brooklyn,94,37,28,42
+1205,9,23,4,Lower East Side,1133,771,564,1091
+1206,9,23,4,Bushwick and Williamsburg,138,131,100,136
+1207,9,23,4,Chelsea and Clinton,1537,1759,1565,1717
+1208,9,23,4,Lower Manhattan,385,747,702,435
+1209,9,23,4,Northwest Queens,35,57,67,44
+1210,9,23,4,Greenpoint,219,145,125,167
+1211,9,23,4,Upper West Side,609,362,182,517
+1212,9,23,4,East Harlem,48,41,39,38
+1213,9,23,4,Canarsie and Flatlands,2,2,2,2
+1214,9,23,4,Central Harlem,10,12,4,15
+1215,9,23,4,Sunset Park,0,6,1,0
+1216,9,23,4,Hudson,0,0,0,0
+1217,9,24,5,Greenwich Village and Soho,106,555,126,611
+1218,9,24,5,Chelsea and Clinton,265,1009,249,1014
+1219,9,24,5,Lower East Side,228,666,175,687
+1220,9,24,5,Northwest Brooklyn,108,618,96,638
+1221,9,24,5,Canarsie and Flatlands,0,4,1,2
+1222,9,24,5,Gramercy Park and Murray Hill,124,368,105,328
+1223,9,24,5,Central Harlem,9,20,10,16
+1224,9,24,5,Upper East Side,89,248,72,236
+1225,9,24,5,Upper West Side,122,391,78,395
+1226,9,24,5,Greenpoint,35,144,27,150
+1227,9,24,5,Northwest Queens,7,38,8,49
+1228,9,24,5,Lower Manhattan,85,442,62,477
+1229,9,24,5,Bushwick and Williamsburg,36,169,23,169
+1230,9,24,5,East Harlem,8,26,7,23
+1231,9,24,5,Central Brooklyn,17,48,10,58
+1232,9,24,5,Hudson,0,0,0,0
+1233,9,25,6,Greenwich Village and Soho,98,578,98,584
+1234,9,25,6,Gramercy Park and Murray Hill,84,366,91,360
+1235,9,25,6,Northwest Brooklyn,134,667,130,690
+1236,9,25,6,Lower East Side,194,708,115,742
+1237,9,25,6,Upper East Side,70,287,60,290
+1238,9,25,6,Chelsea and Clinton,218,893,209,1006
+1239,9,25,6,Greenpoint,28,170,24,181
+1240,9,25,6,Upper West Side,111,413,85,417
+1241,9,25,6,Lower Manhattan,82,405,58,392
+1242,9,25,6,Bushwick and Williamsburg,19,138,17,152
+1243,9,25,6,Central Brooklyn,22,59,11,59
+1244,9,25,6,East Harlem,4,32,6,23
+1245,9,25,6,Northwest Queens,8,26,6,38
+1246,9,25,6,Canarsie and Flatlands,0,4,0,8
+1247,9,25,6,Central Harlem,6,26,5,27
+1248,9,25,6,Sunset Park,0,0,0,0
+1249,9,26,0,Upper East Side,320,284,169,389
+1250,9,26,0,Northwest Brooklyn,585,454,473,471
+1251,9,26,0,Greenpoint,219,108,108,138
+1252,9,26,0,Lower Manhattan,368,836,728,426
+1253,9,26,0,Greenwich Village and Soho,517,824,644,667
+1254,9,26,0,Gramercy Park and Murray Hill,849,1351,1200,853
+1255,9,26,0,Chelsea and Clinton,1466,1813,1529,1777
+1256,9,26,0,Lower East Side,1136,818,507,1087
+1257,9,26,0,Upper West Side,270,348,134,461
+1258,9,26,0,Bushwick and Williamsburg,143,102,97,100
+1259,9,26,0,Central Brooklyn,83,25,30,46
+1260,9,26,0,Central Harlem,17,8,7,26
+1261,9,26,0,Northwest Queens,31,62,53,38
+1262,9,26,0,East Harlem,59,29,32,45
+1263,9,26,0,Canarsie and Flatlands,2,1,3,4
+1264,9,26,0,Sunset Park,0,6,0,0
+1265,9,27,1,Northwest Brooklyn,477,465,405,444
+1266,9,27,1,Greenwich Village and Soho,508,807,642,694
+1267,9,27,1,Lower Manhattan,353,798,610,399
+1268,9,27,1,Upper West Side,555,339,158,480
+1269,9,27,1,Gramercy Park and Murray Hill,756,1396,1160,798
+1270,9,27,1,Greenpoint,214,142,131,137
+1271,9,27,1,Central Brooklyn,67,30,26,39
+1272,9,27,1,Lower East Side,1125,795,500,1067
+1273,9,27,1,Chelsea and Clinton,1423,1794,1522,1780
+1274,9,27,1,Bushwick and Williamsburg,129,100,79,97
+1275,9,27,1,Upper East Side,414,282,196,334
+1276,9,27,1,Canarsie and Flatlands,3,2,0,5
+1277,9,27,1,Northwest Queens,22,57,38,44
+1278,9,27,1,East Harlem,40,28,39,37
+1279,9,27,1,Central Harlem,5,13,5,15
+1280,9,27,1,Sunset Park,0,4,0,0
+1281,9,28,2,Northwest Brooklyn,668,405,572,398
+1282,9,28,2,Upper West Side,627,247,188,437
+1283,9,28,2,Bushwick and Williamsburg,163,78,113,108
+1284,9,28,2,Northwest Queens,35,53,61,42
+1285,9,28,2,Lower Manhattan,377,689,735,373
+1286,9,28,2,Central Brooklyn,105,22,31,37
+1287,9,28,2,Greenwich Village and Soho,557,727,697,608
+1288,9,28,2,Lower East Side,1168,683,566,1017
+1289,9,28,2,Canarsie and Flatlands,2,0,3,3
+1290,9,28,2,Greenpoint,221,116,128,122
+1291,9,28,2,Upper East Side,426,297,257,354
+1292,9,28,2,Gramercy Park and Murray Hill,854,1402,1331,857
+1293,9,28,2,Chelsea and Clinton,1624,1744,1712,1603
+1294,9,28,2,East Harlem,54,35,45,30
+1295,9,28,2,Central Harlem,15,14,8,24
+1296,9,28,2,Sunset Park,0,2,1,1
+1297,9,29,3,Chelsea and Clinton,1371,1506,1467,1434
+1298,9,29,3,Bushwick and Williamsburg,144,67,100,85
+1299,9,29,3,Upper West Side,538,246,173,327
+1300,9,29,3,Northwest Brooklyn,513,350,450,324
+1301,9,29,3,Lower East Side,1084,615,536,819
+1302,9,29,3,Gramercy Park and Murray Hill,775,1165,1165,711
+1303,9,29,3,Greenwich Village and Soho,457,599,617,469
+1304,9,29,3,Upper East Side,413,251,227,303
+1305,9,29,3,Lower Manhattan,326,491,636,267
+1306,9,29,3,Central Harlem,8,6,5,11
+1307,9,29,3,Central Brooklyn,76,29,29,31
+1308,9,29,3,Northwest Queens,31,44,55,28
+1309,9,29,3,Greenpoint,206,82,116,97
+1310,9,29,3,East Harlem,45,33,35,22
+1311,9,29,3,Canarsie and Flatlands,2,2,4,3
+1312,9,29,3,Sunset Park,3,4,5,0
+1313,9,30,4,Northwest Brooklyn,245,111,227,108
+1314,9,30,4,Chelsea and Clinton,671,355,863,342
+1315,9,30,4,Lower Manhattan,120,129,268,88
+1316,9,30,4,Lower East Side,621,177,327,250
+1317,9,30,4,Greenwich Village and Soho,194,151,342,124
+1318,9,30,4,Central Brooklyn,46,15,24,18
+1319,9,30,4,Greenpoint,121,44,90,45
+1320,9,30,4,Gramercy Park and Murray Hill,411,261,735,193
+1321,9,30,4,Upper East Side,347,71,201,75
+1322,9,30,4,Bushwick and Williamsburg,85,28,67,36
+1323,9,30,4,Upper West Side,420,56,158,106
+1324,9,30,4,Northwest Queens,16,15,31,12
+1325,9,30,4,East Harlem,32,12,27,10
+1326,9,30,4,Canarsie and Flatlands,1,2,1,2
+1327,9,30,4,Central Harlem,8,2,2,4
+1328,9,30,4,Sunset Park,0,1,1,1
