@@ -558,7 +558,7 @@ for (param in lambda_list){
 # Model 8: using only main effects
 # July --> Aug
 model_8 <- lm(afternoon_incoming ~ morning_incoming+morning_outgoing+morning_in_user+morning_out_user
-              +morning_in_duration+morning_out_duration, data = month7)
+              +morning_in_duration+morning_out_duration+neighborhood+day_of_week, data = month7)
 Aug_pred_8 <- predict(model_8, new = month8)
 SSR <- sum((month8$afternoon_incoming^5 - Aug_pred_8^5)^2)
 R_squared_Aug_8 <- 1 - (SSR/SST_Aug)
@@ -568,6 +568,39 @@ model_8 <- lm(afternoon_incoming ~ morning_incoming+morning_outgoing+morning_in_
 Sep_pred_8 <- predict(model_8, new = month9)
 SSR <- sum((month9$afternoon_incoming^5 - Sep_pred_8^5)^2)
 R_squared_Sep_8 <- 1 - (SSR/SST_Sep)
+
+
+# Model 9: adding neighborhood to model 1
+# July --> Aug
+model_9 <- lm(afternoon_incoming ~ morning_outgoing+neighborhood, data = month7)
+Aug_pred_9 <- predict(model_9, new = month8)
+SSR <- sum((month8$afternoon_incoming^5 - Aug_pred_9^5)^2)
+R_squared_Aug_9 <- 1 - (SSR/SST_Aug)
+# Aug --> Sep
+model_9 <- lm(afternoon_incoming ~ morning_outgoing+neighborhood, data = month8)
+Sep_pred_9 <- predict(model_9, new = month9)
+SSR <- sum((month9$afternoon_incoming^5 - Sep_pred_9^5)^2)
+R_squared_Sep_9 <- 1 - (SSR/SST_Sep)
+
+
+# Model 10: adding neighborhood and interaction to model 1
+# July --> Aug
+model_10 <- lm(afternoon_incoming ~ morning_outgoing*neighborhood, data = month7)
+Aug_pred_10 <- predict(model_10, new = month8)
+SSR <- sum((month8$afternoon_incoming^5 - Aug_pred_10^5)^2)
+R_squared_Aug_10 <- 1 - (SSR/SST_Aug)
+# Aug --> Sep
+model_10 <- lm(afternoon_incoming ~ morning_outgoing+neighborhood, data = month8)
+Sep_pred_10 <- predict(model_10, new = month9)
+SSR <- sum((month9$afternoon_incoming^5 - Sep_pred_10^5)^2)
+R_squared_Sep_10 <- 1 - (SSR/SST_Sep)
+
+
+# Model 11: adding day-of-week to model 10
+model_11 <- lm(afternoon_incoming ~ morning_outgoing*neighborhood*as.factor(day_of_week), data = month7)
+Aug_pred_11 <- predict(model_11, new = month8)
+SSR <- sum((month8$afternoon_incoming^5 - Aug_pred_11^5)^2)
+R_squared_Aug_11 <- 1 - (SSR/SST_Aug)
 
 
 # summary
@@ -615,8 +648,8 @@ forecast(result)$mean[1]
 
 
 ######### predict the data in Aug using a 30-day moving window #########
-region = 'Lower East Side'
-#region = 'Greenpoint'
+#region = 'Lower East Side'
+region = 'Greenpoint'
 
 morning_data <- Data_pred_in$morning_outgoing[Data_pred_in$neighborhood == region]
 afternoon_data <- Data_pred_in$afternoon_incoming[Data_pred_in$neighborhood == region]
@@ -641,6 +674,7 @@ for (i in 1:31){
   
   # use auto.arima to predict
   fit_ts <- auto.arima(ts_overall)
+  print (fit_ts$coef)
   # predict
   forecast_ts <- forecast(fit_ts, level=c(95))
   # point prediction
@@ -698,33 +732,72 @@ MSE3 <- ts_RSS/31*length(region_list)
 
 
 
-############### compute R^2 for each region using model_4 and the time series method (Aug) #################
-## model_4
-RSS_model_4 <- list()
+############### compute R^2 for each region using model_1 and the time series method (Aug) #################
+## model_1
+RSS_model_1 <- list()
+TSS_model_1 <- list()
 for (region in region_list){
-  #RSS of model 4
+  #RSS of model 1
   RSS <- sum((month8$afternoon_incoming[month8$neighborhood == region]^5 - 
-                Aug_pred_4[month8$neighborhood == region]^5)^2)
-  RSS_model_4 <- c(RSS_model_4, RSS)
+                Aug_pred_1[month8$neighborhood == region]^5)^2)
+  RSS_model_1 <- c(RSS_model_1, RSS)
+  
+  region_mean <- mean(month8$afternoon_incoming^5)
+  TSS <- sum((month8$afternoon_incoming[month8$neighborhood == region]^5-region_mean)^2)
+  TSS_model_1 <- c(TSS_model_1, TSS)
+}
+
+# R-square per region
+result <- 1- as.numeric(RSS_model_1)/as.numeric(TSS_model_1)
+result <- as.numeric(RSS_model_1)/31
+write.csv(as.matrix(result), "table3.csv")
+
+#ts_comparison <- cbind(as.numeric(ts_RSS_list)/31, as.numeric(RSS_model_1)/31)
+#region_list[as.numeric(ts_RSS_list) > as.numeric(RSS_model_1)]
+#region_list[as.numeric(ts_RSS_list) < as.numeric(RSS_model_1)]
+
+
+## model_10
+RSS_model_10 <- list()
+for (region in region_list){
+  #RSS of model 
+  RSS <- sum((month8$afternoon_incoming[month8$neighborhood == region]^5 - 
+                Aug_pred_10[month8$neighborhood == region]^5)^2)
+  RSS_model_10 <- c(RSS_model_10, RSS)
 }
 
 
-ts_comparison <- cbind(as.numeric(ts_RSS_list)/31, as.numeric(RSS_model_4)/31)
-region_list[as.numeric(ts_RSS_list) > as.numeric(RSS_model_4)]
-region_list[as.numeric(ts_RSS_list) < as.numeric(RSS_model_4)]
+ts_comparison <- cbind(as.numeric(ts_RSS_list)/31, as.numeric(RSS_model_1)/31, as.numeric(RSS_model_10)/31)
+region_list[as.numeric(ts_RSS_list) > as.numeric(RSS_model_10)]
+region_list[as.numeric(ts_RSS_list) < as.numeric(RSS_model_10)]
 
 
 
-### visualize some of these regions: 
-#region = "Greenwich Village and Soho"
+### using model 1 to predict Greenpoint only
+month7_GP <- month7[month7$neighborhood == 'Lower Manhattan', ]
+model1_2 <- lm(afternoon_incoming ~ morning_outgoing + morning_incoming, data = month7_GP)
 
-#ts_incoming <- cbind(matrix(Data_pred_in$morning_outgoing[Data_pred_in$neighborhood == region]), 
-#                     matrix(Data_pred_in$afternoon_incoming[Data_pred_in$neighborhood == region]))
-#ts_incoming <- as.vector(t(ts_incoming))
-## visualize
-#ts.plot(ts_incoming)
 
-#auto.arima(ts_incoming)
+# visualize
+p3 <- ggplot(month7_GP, aes(x=morning_outgoing, y=afternoon_incoming), main = 'Greenpoint') +
+  geom_point(shape=19) +
+  geom_smooth(method=lm, se=FALSE, fullrange=TRUE, size = 1)
+p3 + ggtitle("GreenPoint")+
+  labs(y="# incoming trips at afternoon rush hour (transformed)",
+       x="# outgoing trips at morning rush hour (transformed)") +
+  theme(axis.title = element_text(size=14), legend.text = element_text(size=12),
+        legend.title = element_text(size=14)) 
+
+p4 <- ggplot(month7_GP, aes(x=morning_incoming, y=afternoon_incoming), main = 'Greenpoint') +
+  geom_point(shape=19) +
+  geom_smooth(method=lm, se=FALSE, fullrange=TRUE, size = 1)
+p4 + ggtitle("GreenPoint")+
+  labs(y="# incoming trips at afternoon rush hour (transformed)",
+       x="# incoming trips at morning rush hour (transformed)") +
+  theme(axis.title = element_text(size=14), legend.text = element_text(size=12),
+        legend.title = element_text(size=14)) 
+
+
 
 
 
@@ -735,11 +808,11 @@ library(wesanderson)
 ### Plot of model1
 p1 <- ggplot(Data_pred_in, aes(x=morning_outgoing, y=afternoon_incoming, colour = month)) +
   geom_point(shape=19) +
-  geom_smooth(method=lm, se=FALSE, fullrange=TRUE, size = 1.5)
+  geom_smooth(method=lm, se=FALSE, fullrange=TRUE, size = 1)
 # Use brewer color palettes
 p1 + scale_color_brewer(palette="Set1") +
-  labs(x="# incoming trips at afternoon rush hour (transformed)",
-       y="# outgoing trips at morning rush hour (transformed)") +
+  labs(y="# incoming trips at afternoon rush hour (transformed)",
+       x="# outgoing trips at morning rush hour (transformed)") +
   theme(axis.title = element_text(size=14), legend.text = element_text(size=12),
        legend.title = element_text(size=14)) 
 
@@ -747,17 +820,15 @@ p1 + scale_color_brewer(palette="Set1") +
 ### Plot of model comparision for a region
 ### visualize the comparison of the ts model and model 4
 # compute prediction and CI from model 4
-model_4 <- lm(afternoon_incoming ~ neighborhood + morning_outgoing + 
-                day_of_week + neighborhood:morning_outgoing + morning_outgoing:day_of_week, 
-              data = month7)
-Aug_pred_4 <- predict(model_4, new = month8, interval = c("prediction"))
+model_1 <- lm(afternoon_incoming ~ morning_outgoing, data = month7)
+Aug_pred_1 <- predict(model_1, new = month8, interval = c("prediction"))
 
 ts_pred_result <- as.numeric(ts_pred_result)^5
-lm_pred_result <- Aug_pred_4[month8$neighborhood == region, 1]^5
+lm_pred_result <- Aug_pred_1[month8$neighborhood == region, 1]^5
 ts_CI_lower <- as.numeric(ts_CI_lower)^5
 ts_CI_upper <- as.numeric(ts_CI_upper)^5
-lm_CI_lower <- Aug_pred_4[month8$neighborhood == region, 2]^5
-lm_CI_upper <- Aug_pred_4[month8$neighborhood == region, 3]^5
+lm_CI_lower <- Aug_pred_1[month8$neighborhood == region, 2]^5
+lm_CI_upper <- Aug_pred_1[month8$neighborhood == region, 3]^5
 
 
 p2 <- qplot(x=c(1:31), y= (month8[month8$neighborhood ==region, ]$afternoon_incoming)^5, 
@@ -790,3 +861,15 @@ ggplot(data = total_trips, aes(x=time, y=total_trips, group=1)) +
   labs(x="Time of Day (hour)",
        y="Total number of trips") +
   theme(axis.title = element_text(size=14)) 
+
+
+### Plot of model1 by regions
+p1 <- ggplot(Data_pred_in, aes(x=morning_outgoing, y=afternoon_incoming, colour = neighborhood)) +
+  geom_point(shape=19) +
+  geom_smooth(method=lm, se=FALSE, fullrange=TRUE, size = 1)
+# Use brewer color palettes
+p1 + scale_color_brewer(palette="Set1") +
+  labs(y="# incoming trips at afternoon rush hour (transformed)",
+       x="# outgoing trips at morning rush hour (transformed)") +
+  theme(axis.title = element_text(size=14), legend.text = element_text(size=12),
+        legend.title = element_text(size=14)) 
