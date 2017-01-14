@@ -30,9 +30,9 @@ Files:
 #### 1. Normalized trip imbalance:
 Normalized trip imbalance was calculated as the difference between the outgoing and incoming trips divided by total number of docks in the region. This value measures the unmet demand of bikes normalized by the supply capacity of the region, and serves as the response variable in the analysis of spatial and temporal effect on the supply-demand imbalance.
 
-
+<p align="center">
 <i>Normalized imbalance = (Outgoing trip number-incoming trip number)/(total dock number in the region)</i>
-
+</p>
 
 Since the distribution of normalized trip imbalance is leptokurtic with heavy tails, we transformed the variable by taking square root of the absolute values and assigning the original signs. Data from five neighborhood regions with few observations were dropped from the analysis, including “Sunset Park”, “Hudson”, “Highlands”, “Canarsie and Flatlands” and “Central Harlem”.  The remaining regions include roughly equal numbers of observations. The distribution of the square-root transformed trip imbalance in each neighborhood were checked. Although the transformed data from some neighborhood regions exhibit bimodal shapes, the distributions are mostly symmetric.
 
